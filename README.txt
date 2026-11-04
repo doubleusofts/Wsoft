@@ -1,3 +1,42 @@
-Û^š›bh¥êß¢¹­…â'ŠØš–,ŞçÚº[C®+Ş²Š^­«b¢z'¶…ŠW’ÊË^ššè¾'^­ö¢•çQÕP“UHÓÑ•È8 %RSˆSÑP”ÒUB‚”ÕT•T‘B‘^˜XİH’T[ˆİX›KXÛXÚÈ[™^š[ˆ]Ü[œÈ[ˆÚ›ÛYKYÙK‘š\™Y›ŞÜˆØY˜\šKˆ›È›ÙKšœËœK[œİ[][ÛˆÜˆZ[İ\\È™YYY‚’ÙY\[š[\È[™H\ÜÙ]È›Û\ˆÙÙ]\‹‚‚‘QU‹HYÙHÛÛ[ˆY]H[™]šYX[š[š[\È[ˆ[H^Y]Ü‹‚‹HXZ[ˆÛÛÜœÈ[™İ\İÛHİ[[™Îˆİ[K˜ÜÜË‚‹H[\˜Xİ[ÛœÎˆØÜš\šœÈ
-Z[ˆœ›İÜÙ\ˆ˜]˜TØÜš\
-K‚‹H\Ú[™\ÜÈ[šÜÈ[™Ü[Û˜[ÛÛXİ›Ü›H[™Ú[ˆÛÛ™šYËšœË‚‹HÜšYÚ[˜[İ\YYÙÛÎˆÙÛËœ™Ëˆ˜]šXÛÛˆXÛÛ‹œİ™Ë‚‹HÚ\™YÛÛ\[Y\ÚYÛˆÔÔÈ[™ØØ[H[™Y›ÛÎˆ\ÜÙ]ËË‚‚”P“TÒ•\ØY\È›Û\‰ÜÈÛÛ[ÈÈ[İ\ˆÜİ[™ÈX›X×Ú[\™XİÜKÜ‚\ÙHÚ]XˆYÙ\Ë™]YHÜˆ[›İ\ˆİ]XÈÜİˆHÛY\YÙH\È[™^š[‚[[šÜÈ\™H™[]]™HÛÈHYÙ\È[ÛÈÛÜšÈHÜ[š[™Èš[\È\™XİK‚‚ÓÓ•PÕ“Ô“B•Hœ›İÜÙ\‹[Û›H™\œÚ[Ûˆ˜[Y]\ÈHšY[È]Ù\È›İÙ[™Y\ÜØYÙ\Â[[[İH[\ˆ[ˆ^\›˜[›Ü›HÙ\šXÙH[™Ú[[ˆÛÛ™šYËšœËˆ›ÈÙXÜ™]THÙ^HÚİ[]™\ˆ™HXÙY[ˆSÜˆ˜]˜TØÜš\ˆ[İ\ˆÛ™K[XZ[[™œÛØÚX[]Z[È\™H›[šÈ[[İ\YYˆH›Ø][™ÈÛÛXİ]ÛœÈXYÈHÛÛXİYÙH[[ÛÛ™šYİ\™Y‚‚ÓÓ•S•”Ø[\HY]šXÜÈ[™\İ[[ÛšX[ËÛÛ˜Ù\Ü›Û[È[šY\Ë\Ú[™\ÜÈÛÛXİœXÙZÛ\œÈ[™X[HÛÛ[\™HÛX\›HX™[Yˆ™\XÙH\ÙH™Y›Ü™BœX›XÈ][˜ÚˆYØ[YÙ\È\™Hİ\\ˆ^™\]Z\š[™È\Ú[™\ÜË\ÜXÚYšXÈ™]šY]Ë‚‚‘’STÂš[™^š[8 %ÛY\YÙB˜X›İ]š[X[Kš[ÛÛXİš[›ÙÜËš[Ü›Û[Ëš[œÙ\šXÙ\ËJ‹š[8 %ZYÚÙ\šXÙHYÙ\Â˜›ÙÜËJ‹š[8 %\XÛHYÙ\ÂœÜ›Û[ËJ‹š[8 %›Ú™Xİ]Z[YÙ\Â\›\Ëš[š]˜XŞKš[œİ[K˜ÜÜËØÜš\šœËÛÛ™šYËšœËÙÛËœ™ËXÛÛ‹œİ™Ë\ÜÙ]ËÂ‚•\È\ÈHİ[™[Û™HSY][Û‹ˆ]Ù\È›İ™\]Z\™HH™^šœÈ›Ú™Xİ‚
+DOUBLEU SOFTS â€” PLAIN HTML WEBSITE
+
+START HERE
+Extract the ZIP, then double-click index.html. It opens in Chrome, Edge,
+Firefox or Safari. No Node.js, npm, installation or build step is needed.
+Keep all files and the assets folder together.
+
+EDIT
+- Page content: edit the individual .html files in any text editor.
+- Main colors and custom styling: style.css.
+- Interactions: script.js (plain browser JavaScript).
+- Business links and optional contact form endpoint: config.js.
+- Original supplied logo: logo.png. Favicon: icon.svg.
+- Shared compiled design CSS and locally bundled fonts: assets/.
+
+PUBLISH
+Upload this folder's contents to your hosting public_html directory, or
+use GitHub Pages, Netlify or another static host. The homepage is index.html.
+All links are relative so the pages also work by opening files directly.
+
+CONTACT FORM
+The browser-only version validates the fields but does not send messages
+until you enter an external form service endpoint in config.js. No secret
+API key should ever be placed in HTML or JavaScript. Your phone, email and
+social details are blank until supplied. The floating contact buttons lead
+to the contact page until configured.
+
+CONTENT
+Sample metrics and testimonials, concept portfolio entries, business contact
+placeholders and team content are clearly labeled. Replace these before
+public launch. Legal pages are starter text requiring business-specific review.
+
+FILES
+index.html â€” homepage
+about.html, team.html, contact.html, blogs.html, portfolio.html
+services-*.html â€” eight service pages
+blogs-*.html â€” article pages
+portfolio-*.html â€” project detail pages
+terms.html, privacy.html
+style.css, script.js, config.js, logo.png, icon.svg, assets/
+
+This is the standalone HTML edition. It does not require the Next.js project.

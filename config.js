@@ -1,3 +1,6 @@
-Û^š›bh¥êß¢¹­…â'ŠØš–,ŞçÚº[C®+Ş²Š^­«b¢z'¶…ŠW’ÊË^ššè¾'^­ö¢•çKÊˆY[İ\ˆ™X[\Ú[™\ÜÈ]Z[È\™Kˆ›ÈTHÙ^\È™[Û™È[ˆ\Èš[Kˆ
-‹ÂÚ[™İË‘ÕP“UWĞÓÓ‘’QÈHÂˆ[XZ[ˆ	ÉËÛ™Nˆ	ÉËÚ]Ø\ˆ	ÉË[šÙY[ˆ	ÉË˜XÙX›ÛÚÎˆ	ÉË[œİYÜ˜[Nˆ	ÉËˆÊˆÜ[Û˜[È[™Ú[œ›ÛHHİ]XËY›Ü›H›İšY\‹K™Ëˆ›Ü›\Ü™YKˆ
-‹Âˆ›Ü›Q[™Ú[ˆ	ÉÂŸNÂ
+/* Add your real business details here. No API keys belong in this file. */
+window.DOUBLEU_CONFIG = {
+  email: '', phone: '', whatsapp: '', linkedin: '', facebook: '', instagram: '',
+  /* Optional HTTPS endpoint from a static-form provider, e.g. Formspree. */
+  formEndpoint: ''
+};

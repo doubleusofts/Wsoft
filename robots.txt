@@ -1,2 +1,3 @@
-Û^š›bh¥êß¢¹­…â'ŠØš–,ŞçÚº[C®+Ş²Š^­«b¢z'¶…ŠW’ÊË^ššè¾'^­ö¢•çU\Ù\‹XYÙ[ˆ
-‚[İÎˆÂ”Ú][X\ˆÎ‹ËÙİX›]\ÛÙË˜ÛÛKÜÚ][X\[
+User-agent: *
+Allow: /
+Sitemap: https://doubleusofts.com/sitemap.xml

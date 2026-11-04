@@ -1,5 +1,8 @@
-Û^š›bh¥êß¢¹­…â'ŠØš–,ŞçÚº[C®+Ş²Š^­«b¢z'¶…ŠW’ÊË^ššè¾'^­ö¢•çKÊˆİ™\œšY\È›ÜˆH[™\[™[S™\œÚ[Û‹ˆœ˜[™ÛÛÜœÈ]™H\™Kˆ
-‹Âœ›ÛİËK\š[X\NˆÌ™™ËK\š[X\K[YÚˆÌÎYNËK\š[X\KY\šÎˆÌÌXMËKX™ÎˆÌÌLNËK]^ˆÙ™™ËK]^[]]YˆÎXXMŒŸB–ÚY[—^Ù\Ü^N››Û™HZ[\Ü[B‹œ™]™X[ÛÜXÚ]NŒNİ˜[œÙ›Ü›N››Û™Nİ˜[œÚ][Û›ÜXÚ]HœË˜[œÙ›Ü›HœßB‹›Y[K\ØÜš[^Ş‹Z[™^_K›YYØN››İ
-ÚY[—J^Ø[š[X][Û™[\ˆŒœÈX\ÙK[İ]B‹›ÙÛËZ[XYÙ^ÜY[™ÎŒK›ÙÛËZ[XYÙH[YŞØ›Ü™\‹\˜Y]\ÎŒBYYXJ™Y™\œË\™YXÙY[[İ[Ûœ™YXÙJ^Ëœ™[ØY\Ù\Ü^N››Û™_Kœ›İ]KY[\Ø[š[X][Û››Û™__BYYXJX^]ÚY
-^Ë›˜]‹[[šÜË›[Øš[K[Ü[Ûİ™\™›İË^N˜]]ÎÛX^ZZYÚ˜Ø[ÊLšHLL
-_K›YYØ^ÜÜÚ][Ûœİ]XÈZ[\Ü[İÚYŒL	HZ[\Ü[İ˜[œÙ›Ü›N››Û™HZ[\Ü[ÙÜšY][\]KXÛÛ[[œÎŒYœˆZ[\Ü[ÛX^ZZYÚ››Û™HZ[\Ü[_B
+/* Overrides for the independent HTML version. Brand colors live here. */
+:root{--primary:#0866ff;--primary-light:#00c9de;--primary-dark:#031a42;--bg:#03050a;--text:#fff;--text-muted:#9aa4b2}
+[hidden]{display:none!important}
+.reveal{opacity:1;transform:none;transition:opacity .6s,transform .6s}
+.menu-scrim{z-index:45}.mega:not([hidden]){animation:enter .2s ease-out}
+.logo-image{padding:0}.logo-image img{border-radius:0}
+@media(prefers-reduced-motion:reduce){.preloader{display:none}.route-enter{animation:none}}
+@media(max-width:800px){.nav-links.mobile-open{overflow-y:auto;max-height:calc(100dvh - 110px)}.mega{position:static!important;width:100%!important;transform:none!important;grid-template-columns:1fr!important;max-height:none!important}}
