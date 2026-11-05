@@ -140,3 +140,9 @@
 .about-metric-grid{max-width:1336px;margin-inline:auto}
 @media(max-width:1050px){.about-hero-grid{grid-template-columns:1.05fr .95fr;gap:34px}}
 @media(max-width:760px){.about-container{width:min(100% - 36px,600px)}.about-hero{padding-top:125px}.about-hero-grid{grid-template-columns:1fr;align-items:stretch}.about-copy h1{margin-top:34px}.about-break{display:none}.about-visual{margin-top:0}}
+
+/* Final desktop hero proportion corrections. */
+.about-hero-grid{grid-template-columns:minmax(0,760px) minmax(410px,540px)}
+.about-copy h1{font-size:clamp(46px,3.8vw,68px)}
+.about-visual,.about-photo-frame{box-sizing:border-box}
+@media(max-width:1050px){.about-hero-grid{grid-template-columns:1.05fr .95fr}}
