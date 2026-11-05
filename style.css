@@ -122,3 +122,10 @@
 .about-faq-content details p{margin:0;padding:0 24px 23px;color:#98a5b9;font-size:16px;line-height:1.65}
 @media(max-width:760px){.about-faq{grid-template-columns:1fr;gap:25px;padding:0 0 90px}.about-faq-visual{height:340px}.about-faq-content h2{font-size:38px}.about-faq-content summary{font-size:15px;padding:19px 55px 19px 18px}.about-faq-content details p{padding:0 18px 19px;font-size:14px}}
 
+
+/* Desktop spacing adjustments for fixed navigation and reference line breaks. */
+.about-hero{padding-top:145px}
+.about-hero-grid{align-items:start}
+.about-copy h1{max-width:780px}
+.about-visual{margin-top:35px}
+@media(max-width:760px){.about-hero{padding-top:125px}.about-hero-grid{align-items:stretch}.about-visual{margin-top:0}}
