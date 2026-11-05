@@ -350,3 +350,12 @@
 @media(max-width:1100px){.contact-layout{width:min(calc(100% - 48px),1043px);padding:96px 0 70px;gap:18px}.contact-panel{min-height:540px;padding:24px}.contact-visual{padding:26px}.contact-illustration{height:360px}}
 @media(max-width:780px){.contact-navbar{width:calc(100% - 36px)!important;max-width:620px!important;height:auto!important;padding:12px 18px!important}.contact-navbar .logo-image{width:145px!important;height:48px!important}.contact-layout{width:min(calc(100% - 36px),620px);grid-template-columns:1fr;padding:122px 0 76px;gap:18px}.contact-panel{min-height:0;padding:25px}.contact-visual{padding:20px}.contact-illustration{height:auto;aspect-ratio:1/1}.contact-panel h1{font-size:clamp(38px,9vw,54px)}.contact-intro{font-size:16px}.contact-fields{gap:13px}.contact-fields input{height:64px;padding:0 16px;font-size:15px}.contact-fields textarea{height:146px;min-height:146px;padding:18px;font-size:15px}.contact-submit{min-height:62px;font-size:16px}.contact-visual-copy h2{font-size:21px}.contact-visual-copy p{font-size:14px}}
 @media(max-width:480px){.contact-layout{width:min(calc(100% - 28px),620px)}.contact-panel{padding:22px}.contact-fields{grid-template-columns:1fr}.contact-fields .contact-subject,.contact-fields .contact-message{grid-column:auto}}
+
+
+/* Shared centered frame across every page. */
+:root{--site-frame-width:1043px;--site-frame-gutter:32px}
+header.navbar,.container,.about-container,.webdev-wrap,.portfolio-wrap,.contact-layout{width:min(calc(100% - (var(--site-frame-gutter)*2)),var(--site-frame-width))!important;max-width:var(--site-frame-width)!important;margin-inline:auto!important;box-sizing:border-box}
+header.navbar{height:72px!important;padding:10px 24px!important}
+header.navbar .logo-image{width:145px!important;height:48px!important}
+@media(max-width:780px){:root{--site-frame-gutter:18px;--site-frame-width:620px}header.navbar{height:auto!important;padding:12px 18px!important}}
+@media(max-width:480px){:root{--site-frame-gutter:14px}}
