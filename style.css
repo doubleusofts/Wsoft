@@ -387,14 +387,13 @@ header.navbar .logo-image{width:145px!important;height:48px!important}
 
 
 /* Home technology stack: match the labeled, centered reference cards. */
-.tech-stack-section{width:min(calc(100% - 64px),1043px)!important;max-width:1043px!important;margin-inline:auto!important;text-align:center}
-.tech-stack-section .section-heading{margin:0 auto 44px!important}
+.tech-stack-section{width:min(calc(100% - 64px),1535px)!important;max-width:1535px!important;margin-inline:auto!important;text-align:center}
+.tech-stack-section .section-heading{margin:0 auto 0!important}
 .tech-stack-section .section-heading .eyebrow{color:#00c9de!important;text-transform:uppercase;letter-spacing:.16em;font-weight:750}
-.tech-stack-section .section-heading h2{margin:22px 0 18px!important;font-size:clamp(38px,4vw,52px)!important;line-height:1.08!important;letter-spacing:-.04em!important}
-.tech-stack-section .section-heading>p.muted{margin:0 auto!important;font-size:15px!important;line-height:1.5!important;letter-spacing:.02em}
-.tech-stack-section .stack-tiles{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:12px!important;margin:40px auto 0!important;max-width:100%!important}
-.tech-stack-section .stack-tiles>div{box-sizing:border-box!important;display:flex!important;flex:0 0 82px!important;width:82px!important;height:85px!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:8px!important;border:1px solid #252a32!important;border-radius:18px!important;background:#0c0f14!important;color:#f4f6fb!important}
-.tech-stack-section .stack-tiles .tech-logo{display:block!important;color:#f4f6fb!important;font-size:30px!important;line-height:1!important}
-.tech-stack-section .stack-tiles span{display:block!important;visibility:visible!important;opacity:1!important;color:#f4f6fb!important;font-size:11px!important;line-height:1.25!important;white-space:nowrap}
-.tech-stack-section>p.muted.measure{display:none!important}
-@media(max-width:780px){.tech-stack-section{width:min(calc(100% - 36px),620px)!important}.tech-stack-section .section-heading{margin-bottom:30px!important}.tech-stack-section .stack-tiles{gap:10px!important;margin-top:30px!important}.tech-stack-section .stack-tiles>div{flex-basis:76px!important;width:76px!important;height:82px!important}}
+.tech-stack-section .section-heading h2{margin:22px 0 18px!important;font-size:clamp(42px,4vw,68px)!important;line-height:1.08!important;letter-spacing:-.04em!important}
+.tech-stack-section .section-heading>p.muted{margin:0 auto!important;font-size:clamp(16px,1.42vw,24px)!important;line-height:1.5!important;letter-spacing:.02em}
+.tech-stack-section .stack-tiles{display:flex!important;flex-wrap:wrap!important;justify-content:center!important;gap:clamp(10px,1.06vw,18px)!important;margin:70px auto 0!important;max-width:100%!important}
+.tech-stack-section .stack-tiles>div{box-sizing:border-box!important;display:flex!important;flex:0 0 clamp(82px,7.24vw,123px)!important;width:clamp(82px,7.24vw,123px)!important;height:clamp(85px,7.53vw,128px)!important;flex-direction:column!important;align-items:center!important;justify-content:center!important;gap:12px!important;border:1px solid #252a32!important;border-radius:22px!important;background:#0c0f14!important;color:#f4f6fb!important}
+.tech-stack-section .stack-tiles .tech-logo{display:block!important;color:#f4f6fb!important;font-size:clamp(30px,2.55vw,44px)!important;line-height:1!important}
+.tech-stack-section .stack-tiles span{display:block!important;visibility:visible!important;opacity:1!important;color:#f4f6fb!important;font-size:clamp(12px,.94vw,16px)!important;line-height:1.25!important;white-space:nowrap}
+@media(max-width:780px){.tech-stack-section{width:min(calc(100% - 36px),620px)!important}.tech-stack-section .section-heading h2{font-size:clamp(34px,7vw,48px)!important}.tech-stack-section .section-heading>p.muted{font-size:14px!important}.tech-stack-section .section-heading{margin-bottom:0!important}.tech-stack-section .stack-tiles{gap:10px!important;margin-top:34px!important}.tech-stack-section .stack-tiles>div{flex-basis:76px!important;width:76px!important;height:82px!important;gap:8px!important}.tech-stack-section .stack-tiles .tech-logo{font-size:30px!important}.tech-stack-section .stack-tiles span{font-size:10px!important}}
