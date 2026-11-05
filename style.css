@@ -129,3 +129,14 @@
 .about-copy h1{max-width:780px}
 .about-visual{margin-top:35px}
 @media(max-width:760px){.about-hero{padding-top:125px}.about-hero-grid{align-items:stretch}.about-visual{margin-top:0}}
+
+/* Match the reference frame and intentional desktop headline breaks. */
+.about-container{width:min(100% - 48px,1628px)}
+.about-hero{padding-top:130px}
+.about-hero-grid{grid-template-columns:minmax(0,760px) minmax(410px,600px);justify-content:space-between;gap:60px;align-items:start}
+.about-copy h1{max-width:760px;margin-top:40px}
+.about-break{display:block}
+.about-visual{margin-top:35px}
+.about-metric-grid{max-width:1336px;margin-inline:auto}
+@media(max-width:1050px){.about-hero-grid{grid-template-columns:1.05fr .95fr;gap:34px}}
+@media(max-width:760px){.about-container{width:min(100% - 36px,600px)}.about-hero{padding-top:125px}.about-hero-grid{grid-template-columns:1fr;align-items:stretch}.about-copy h1{margin-top:34px}.about-break{display:none}.about-visual{margin-top:0}}
