@@ -378,3 +378,9 @@ header.navbar .logo-image{width:145px!important;height:48px!important}
 .portfolio-tags{gap:7px!important;margin:0 0 17px!important}
 .portfolio-tags span{padding:5px 9px!important;font-size:11px!important;line-height:1.25!important}
 .portfolio-card-link{padding:12px 14px!important;font-size:12px!important}
+
+
+/* Keep portfolio copy concise at four columns so row height stays controlled. */
+.portfolio-card h2{font-size:16px!important;line-height:1.25!important}
+.portfolio-card p{font-size:13px!important;line-height:1.45!important;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden}
+.portfolio-tags span{font-size:10px!important;padding:4px 8px!important}
