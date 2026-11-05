@@ -3,7 +3,7 @@
 [hidden]{display:none!important}
 .reveal{opacity:1;transform:none;transition:opacity .6s,transform .6s}
 .menu-scrim{z-index:45}.mega:not([hidden]){animation:enter .2s ease-out}
-.logo,.logo-image,.logo-image img{background:transparent!important}.logo-image{padding:0;width:190px;height:63px;background:transparent}.logo-image img{border-radius:0;object-fit:contain;object-position:center;transform:none;filter:none}
+.logo,.logo-image,.logo-image img{background:transparent!important}.logo-image{display:block;position:relative;padding:0;width:190px;height:63px;background:transparent}.logo-image img{border-radius:0;object-fit:contain;object-position:center;transform:none;filter:none}
 @media(prefers-reduced-motion:reduce){.preloader{transition:none}.route-enter{animation:none}}
 @media(max-width:800px){.nav-links.mobile-open{overflow-y:auto;max-height:calc(100dvh - 110px)}.mega{position:static!important;width:100%!important;transform:none!important;grid-template-columns:1fr!important;max-height:none!important}}
 
