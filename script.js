@@ -67,7 +67,27 @@
   $$('.code-tabs button').forEach(button=>button.addEventListener('click',()=>{clearInterval(typing);$$('.code-tabs button').forEach(b=>{b.classList.toggle('active',b===button);b.setAttribute('aria-pressed',String(b===button));});showCode(views[button.textContent]);}));
   const countObserver=new IntersectionObserver(entries=>entries.forEach(e=>{if(!e.isIntersecting)return;countObserver.unobserve(e.target);const target=Number(e.target.dataset.target),start=performance.now();function frame(now){const t=reduced?1:Math.min((now-start)/1200,1);e.target.firstChild.textContent=String(Math.round(target*(1-(1-t)**3)));if(t<1)requestAnimationFrame(frame);}requestAnimationFrame(frame);}),{threshold:.5});$$('[data-target]').forEach(el=>countObserver.observe(el));
   if(!reduced&&matchMedia('(pointer:fine)').matches){$$('.glow-card').forEach(card=>card.addEventListener('pointermove',e=>{const r=card.getBoundingClientRect();card.style.setProperty('--mx',`${e.clientX-r.left}px`);card.style.setProperty('--my',`${e.clientY-r.top}px`);}));}
-  const loader=$('.preloader');if(loader){let n=0;const interval=setInterval(()=>{n=Math.min(100,n+10);const text=$(':scope > span',loader);if(text)text.textContent=n+'%';if(n===100){clearInterval(interval);loader.remove();}},reduced?1:70);}
+  const loader=$('.preloader');
+  if(loader){
+    const brand=$('.loader-brand',loader), fill=$('.loader-fill',loader), track=$('.loader-track',loader);
+    const label=$('.loader-message',loader), percent=$('.loader-percent',loader);
+    const reference=[{at:0,value:0,state:'architecture',message:'INITIALIZING ARCHITECTURE...'},{at:190,value:5,state:'architecture',message:'INITIALIZING ARCHITECTURE...'},{at:820,value:36,state:'cloud',message:'LOADING CLOUD STACK...'},{at:1680,value:97,state:'compile',message:'COMPILING AI ENGINES...'},{at:2350,value:100,state:'ready',message:'ENVIRONMENT READY'}];
+    const duration=reduced?280:2350, phases=reference.map(p=>({...p,at:reduced?p.at/2350*duration:p.at}));
+    let phaseIndex=-1;const started=performance.now();
+    if(reduced)brand?.classList.add('is-visible');else setTimeout(()=>brand?.classList.add('is-visible'),140);
+    function animateLoader(now){
+      const elapsed=Math.min(now-started,duration);
+      let index=0;while(index<phases.length-1&&elapsed>=phases[index+1].at)index++;
+      const phase=phases[index], next=phases[index+1], span=next?Math.max(1,next.at-phase.at):1;
+      const t=next?Math.min(1,Math.max(0,(elapsed-phase.at)/span)):1;
+      const value=next?phase.value+(next.value-phase.value)*t:phase.value;
+      if(index!==phaseIndex){phaseIndex=index;loader.dataset.state=phase.state;label.textContent=phase.message;}
+      fill.style.width=value+'%';percent.textContent=Math.round(value)+'%';track.setAttribute('aria-valuenow',String(Math.round(value)));
+      if(elapsed<duration)requestAnimationFrame(animateLoader);
+      else{loader.dataset.state='ready';label.textContent='ENVIRONMENT READY';percent.textContent='100%';track.setAttribute('aria-valuenow','100');setTimeout(()=>loader.classList.add('is-exiting'),160);setTimeout(()=>loader.remove(),reduced?180:660);}
+    }
+    requestAnimationFrame(animateLoader);
+  }
   ['facebook','instagram','linkedin'].forEach(key=>{if(config[key])$$(`a[aria-label="${key[0].toUpperCase()+key.slice(1)}"]`).forEach(a=>a.href=config[key]);});
   if(config.linkedin){const community=$('.community');if(community)community.href=config.linkedin;$$('a[aria-label="LinkedIn"]').forEach(a=>a.href=config.linkedin);}
   if(config.phone)$('a[aria-label="Call us"]').href='tel:'+config.phone;
