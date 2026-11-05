@@ -325,3 +325,28 @@
 
 /* Visually hide form labels while retaining accessible names. */
 .contact-page .sr-only{position:absolute!important;width:1px!important;height:1px!important;padding:0!important;margin:-1px!important;overflow:hidden!important;clip:rect(0,0,0,0)!important;white-space:nowrap!important;border:0!important}
+
+/* Match the narrower centered contact-page reference frame. */
+.contact-navbar{width:min(calc(100% - 64px),1043px)!important;max-width:1043px!important;height:72px!important;box-sizing:border-box;padding:10px 24px!important}
+.contact-navbar .logo-image{width:145px!important;height:48px!important}
+.contact-layout{width:min(calc(100% - 64px),1043px);padding:98px 0 74px;grid-template-columns:minmax(0,1.42fr) minmax(0,1fr);gap:22px}
+.contact-panel,.contact-visual{border-radius:28px}
+.contact-panel{min-height:547px;padding:26px}
+.contact-eyebrow{gap:8px;margin-bottom:24px;font-size:10px;letter-spacing:.13em}
+.contact-eyebrow:before{width:8px;height:8px}
+.contact-eyebrow span{padding:8px 14px}
+.contact-panel h1{font-size:clamp(38px,3.45vw,48px);margin-bottom:10px}
+.contact-intro{font-size:14px;line-height:1.65}
+.contact-form-card{gap:14px;margin-top:20px}
+.contact-fields{gap:14px}
+.contact-fields input{height:53px;padding:0 15px;font-size:14px;border-radius:15px}
+.contact-fields textarea{height:117px;min-height:117px;padding:15px;font-size:14px;border-radius:15px}
+.contact-submit{min-height:51px;border-radius:15px;font-size:14px}
+.contact-visual{padding:30px}
+.contact-illustration{height:380px;border-radius:14px}
+.contact-visual-copy{margin-top:13px;padding-top:17px}
+.contact-visual-copy h2{font-size:16px}
+.contact-visual-copy p{font-size:11px;line-height:1.7}
+@media(max-width:1100px){.contact-layout{width:min(calc(100% - 48px),1043px);padding:96px 0 70px;gap:18px}.contact-panel{min-height:540px;padding:24px}.contact-visual{padding:26px}.contact-illustration{height:360px}}
+@media(max-width:780px){.contact-navbar{width:calc(100% - 36px)!important;max-width:620px!important;height:auto!important;padding:12px 18px!important}.contact-navbar .logo-image{width:145px!important;height:48px!important}.contact-layout{width:min(calc(100% - 36px),620px);grid-template-columns:1fr;padding:122px 0 76px;gap:18px}.contact-panel{min-height:0;padding:25px}.contact-visual{padding:20px}.contact-illustration{height:auto;aspect-ratio:1/1}.contact-panel h1{font-size:clamp(38px,9vw,54px)}.contact-intro{font-size:16px}.contact-fields{gap:13px}.contact-fields input{height:64px;padding:0 16px;font-size:15px}.contact-fields textarea{height:146px;min-height:146px;padding:18px;font-size:15px}.contact-submit{min-height:62px;font-size:16px}.contact-visual-copy h2{font-size:21px}.contact-visual-copy p{font-size:14px}}
+@media(max-width:480px){.contact-layout{width:min(calc(100% - 28px),620px)}.contact-panel{padding:22px}.contact-fields{grid-template-columns:1fr}.contact-fields .contact-subject,.contact-fields .contact-message{grid-column:auto}}
