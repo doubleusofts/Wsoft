@@ -310,7 +310,7 @@
 .contact-fields textarea{height:176px;min-height:176px;resize:vertical;padding:22px}
 .contact-fields input::placeholder,.contact-fields textarea::placeholder{color:#77777d;opacity:1}
 .contact-fields input:focus,.contact-fields textarea:focus{border-color:#269ce9;box-shadow:0 0 0 3px #269ce922}
-.contact-submit{width:100%;min-height:76px;margin-top:auto;border:0;border-radius:22px;background:#2698df;color:#fff;font:700 20px inherit;box-shadow:0 12px 25px #1589d933;cursor:pointer;transition:background .2s,transform .2s}
+.contact-submit{width:100%;min-height:76px;margin-top:auto;border:0;border-radius:22px;background:#2698df;color:#fff;font:inherit;font-size:20px;font-weight:700;box-shadow:0 12px 25px #1589d933;cursor:pointer;transition:background .2s,transform .2s}
 .contact-submit:hover{background:#168cdb;transform:translateY(-1px)}
 .contact-submit:disabled{opacity:.7;cursor:wait}
 .contact-status:empty{display:none}.contact-status{margin:0;color:#9fcff2;font-size:14px;line-height:1.5}
